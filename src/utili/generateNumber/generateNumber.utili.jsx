@@ -13,7 +13,7 @@ function generateNumberFunction() {
       lastCount++
     }
 
-    if (lastCount > 6) break
+    if (lastCount > 5) break
   }
 
   return resultArray.sort((a, b) => a - b)
